@@ -37,7 +37,7 @@ const data = [
     cImg: 'src="./img/Screenshot_20240510-055729.png"',
     cTechnologies: ['HTML', 'CSS','Java Script'],
     cbutton: 'See Project',
-    mImage: 'src="/./img/Screenshot_20240510-055729.png" alt="" ',
+    mImage: 'src="./img/Screenshot_20240510-055729.png" alt="" ',
     dImage: 'src="./img/Screenshot_20240510-055729.png"',
     header: 'Android Studio: Personal Portfolio',
     descrip:
