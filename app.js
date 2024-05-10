@@ -1,7 +1,7 @@
 const data = [
   {
     cTitle: 'Mobile Development:Figma ',
-    cImg: './img/received_381936387655343.png"',
+    cImg: 'src="./img/received_381936387655343.png"',
     cTechnologies: ['Kotlin', 'Android Studio'],
     cbutton: 'See Project',
     mImage: 'src="./img/received_381936387655343.png" alt="" ',
