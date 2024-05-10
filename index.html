@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucio Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1><a href="index.html">Welcome</a></h1>
+      <nav>
+        <div class="nav">
+          <ul class="navL">
+            <li><a href="#About">About</a></li>
+            <li><a href="#works">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+          <a class="closebtn" id="closebtn">&times;</a>
+        </div>
+        <img class="humb" src="/storage/emulated/0/Lucio portfolio/img/Enabled.png" alt="Enabled" />
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h3 class="welcoming">
+        Hello there. I’m Lucio Jr.
+        <span>I’m a Computer Science student.</span>
+      </h3>
+      <p class="description">
+        I am also a florist in the company of Blue Grass Project
+      </p>
+      
+    </section>
+
+    <section id="works" class="work">
+      <h3 class="Section-title">Project</h3>
+    </section>
+
+    <section id="About">
+      <div class="about-intro">
+        <h3 class="about">About Me</h3>
+        <p>
+          Im Lucio Lumba Jr. I am a college studying in Bisu Balilihan Campus  living in Monserrat,Cortes,Bohol. And also a SK Official in our baranggay currently taking a position of a 6th Sk Kagawad. And also im a 3rd year collage student.  
+        </p>
+      </div>
+      <div class="a-card">
+        <img src="/storage/emulated/0/Lucio portfolio/img/icon-skills.png" alt="Skills" />
+        <h5>Skills</h5>
+        <ul>
+          <li>Mobile Legends</li>
+          <li>Basketball</li>
+          <li>Drawing</li>
+          <li>Java</li>
+          <li>Went to school without eating</li>
+          <li>Animation</li>
+       
+        </ul>
+      </div>
+      <div class="a-card">
+        <img src="/storage/emulated/0/Lucio portfolio/img/icon-frameworks.png" alt="Skills" />
+        <h5>My Background</h5>
+        <ul>
+          <li>Monserrat Primary School</li>
+          <li>Fatima Elementary School</li>
+          <li>Fatima National High School</li>
+          <li>Single</li>
+          <li>Roman Catholic</li>
+          <li>Sk Official</li>
+       
+        </ul>
+      </div>
+      <div class="a-card">
+        <img src="/storage/emulated/0/Lucio portfolio/img/icon-languages.png" alt="Skills" />
+        <h5>Interest</h5>
+        <ul>
+          <li>Flowers</li>
+          <li>Money</li>
+          <li>Water Falls and Rivers</li>
+          <li>Trees and Mountains</li>
+          <li>Travel</li>
+          <li>Street Foods</li>
+       
+        </ul>
+      </div>
+    </section>
+    <section id="Contact">
+      <h3>
+        Contact: So that you gain more information about me.
+      </h3>
+      <form id="form" action="https://formspree.io/f/mpzbnpln" method="post">
+        <div>
+          <input
+            class="input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Full name"
+            required
+            maxlength="30"
+          />
+
+          <input
+            class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address "
+            required
+          />
+
+          <textarea
+            class="input"
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="enter ur text here"
+            required
+            maxlength="500"
+          ></textarea>
+        </div>
+        <button type="submit" value="submit">Get in touch</button>
+        <div class="errors"></div>
+      </form>
+      <div class="footer">
+        <img src="/storage/emulated/0/Lucio portfolio/img/Rectangle42.png" alt="rectangle" />
+        <ul class="from-list">
+          <li>
+            <a href="Lucio-lumba20" target="_blank"
+              ><img src="/storage/emulated/0/Lucio portfolio/img/github.png" alt="github"
+            /></a>
+          </li>
+          
+          <li>
+            <a href="https://twitter.com/LucioLumba?t=GWKJRlY5aROU5udZ7FxXkg&s=09" target="_blank"
+              ><img src="/storage/emulated/0/Lucio portfolio/img/twitter (1).svg" alt="twitter"
+            /></a>
+          </li>
+          
+          <li>
+            <a href="https://www.facebook.com/lucio.lumbaii" target="_blank"
+              ><img src="./images/ange" alt="facebook"
+            /></a>
+          </li>
+        </ul>
+        <a
+          id="contact-mail"
+          href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+          >lucio.lumba@bisu.edu.ph</a
+        >
+      </div>
+    </section>
+    <div class="overlay"></div>
+    <div class="modal"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
